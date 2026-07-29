@@ -1,0 +1,32 @@
+{
+  "version": "0.37.0",
+  "description": "Native agentic development environment for terminals, worktrees, and CLI agents.",
+  "homepage": "https://alera.build",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/leynier/alera/releases/download/v0.37.0/alera-0.37.0-windows.zip",
+      "hash": "7840a348fddc0792b6106801fc456e5e207ec9370b012aa87e04fb959787811c"
+    }
+  },
+  "shortcuts": [
+    [
+      "Alera.exe",
+      "Alera"
+    ]
+  ],
+  "notes": [
+    "Alera stores its data outside the install directory, so updates keep your workspaces.",
+    "Update with: scoop update alera"
+  ],
+  "checkver": {
+    "github": "https://github.com/leynier/alera"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/leynier/alera/releases/download/v$version/alera-$version-windows.zip"
+      }
+    }
+  }
+}
