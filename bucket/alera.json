@@ -1,12 +1,12 @@
 {
-  "version": "0.99.1",
+  "version": "0.99.2",
   "description": "Native agentic development environment for terminals, worktrees, and CLI agents.",
   "homepage": "https://alera.build",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/leynier/alera/releases/download/v0.99.1/alera-0.99.1-windows.zip",
-      "hash": "1a371b49203e262457aa54aca2a8459ddb82f420345b406773e65b15013235d6"
+      "url": "https://github.com/leynier/alera/releases/download/v0.99.2/alera-0.99.2-windows.zip",
+      "hash": "f3385948737ac38a28979ad1f06e25c9430333cdcc9d037de25901a2e0a26c58"
     }
   },
   "shortcuts": [
